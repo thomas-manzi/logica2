@@ -13,7 +13,7 @@ public class Quadrado {
     }
 
     public boolean podeConter(Quadrado q) {
-        if(lado > q.lado){
+        if(lado >= q.lado){
             return true;
         }else {
             return false;
